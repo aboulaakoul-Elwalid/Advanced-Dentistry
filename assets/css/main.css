@@ -282,22 +282,23 @@ h6 {
 }
 
 .header .logo {
-  line-height: 4;
+  line-height: 1; /* Adjust line-height if necessary */
   display: flex;
-  align-items: center; /* Ensure logo and text are aligned */
+  align-items: center; /* Center logo and text vertically */
 }
 
 .header .logo img {
-  max-height: 100px; /* Increase the height as needed */
-  margin-right: 8px;
+  max-height: 100px; /* Reduce the height of the logo */
+  margin-right: 8px; /* Space between logo and text */
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 24px; /* Adjust font size as needed */
   margin: 0;
   font-weight: 700;
-  color: var(--heading-color);
+  color: var(--heading-color); /* Ensure text color is correct */
 }
+
 
 .header .cta-btn,
 .header .cta-btn:focus {
